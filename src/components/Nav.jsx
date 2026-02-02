@@ -12,6 +12,11 @@ const Nav = () => {
             link.classList.remove("active");
         })
         event.target.classList.add("active");
+
+        const navCollapse = document.querySelector(".navbar-collapse")
+        navCollapse.classList.toggle("show")
+  
+        
     }
 
     return (
