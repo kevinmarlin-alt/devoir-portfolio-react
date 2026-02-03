@@ -1,12 +1,12 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 
-import Nav from "./components/Nav"
-import Home from "./components/Home"
-import Services from "./components/Services"
-import Portfolio from "./components/Portfolio"
-import Contact from "./components/Contact"
-import Legals from "./components/Legals"
+import Nav from "./assets/components/Nav"
+import Home from "./pages/Home"
+import Services from "./pages/Services"
+import Portfolio from "./pages/Portfolio"
+import Contact from "./pages/Contact"
+import Legals from "./pages/Legals"
 
 export default function App() {
   return (
