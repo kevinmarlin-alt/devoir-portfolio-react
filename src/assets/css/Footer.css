@@ -1,0 +1,13 @@
+footer p, 
+footer a {
+    color: white
+}
+
+footer .bi {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+footer .bi:hover {
+    color: white;
+}

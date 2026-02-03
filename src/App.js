@@ -2,6 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 import Nav from "./assets/components/Nav"
+import Footer from "./assets/components/Footer"
 import Home from "./pages/Home"
 import Services from "./pages/Services"
 import Portfolio from "./pages/Portfolio"
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/mentions-legals" element={<Legals />} />
       </Routes>
+      <Footer />
     </div>
   )
 }
