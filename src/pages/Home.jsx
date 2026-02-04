@@ -14,7 +14,7 @@ const Home = () => {
             <div className="container card border border-0 shadow mb-5 my-3 p-4">
                     <div className="row">
                         <div className="card-body col-md-6">
-                            <h3 className="border-bottom border-primary border-3 lh-lg mb-4">A propos</h3>
+                            <h3 className="border-bottom border-primary border-3 mb-4">A propos</h3>
                             <img src={johndoe} alt="John Doe" className="w-100 mb-2"/>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, necessitatibus consectetur tempore perferendis nostrum, ex delectus reiciendis impedit aut iure enim placeat? Natus, neque at?                            </p>
@@ -25,7 +25,7 @@ const Home = () => {
                         </div>
                     
                         <div className="card-body col-md-6">
-                            <h3 className="border-bottom border-primary border-3 lh-lg mb-4">Mes compétences</h3>
+                            <h3 className="border-bottom border-primary border-3 mb-4">Mes compétences</h3>
                             <ul>
                                 <li className="mb-4">
                                     <p className="mb-1">HTML5 90%</p>
