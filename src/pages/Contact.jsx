@@ -13,10 +13,10 @@ const Contact = () => {
                 <div className="row">
                     <div className="card-body col-md-6 ">
                         <h3 className="border-bottom border-primary border-3 mb-4">Formulaire de contact</h3>
-                        <form className="" action="POST">
+                        <form className="d-flex flex-column" action="#">
                             <input type="text" name="name" id="name" className="form-control mb-2" placeholder="Votre nom" required />
                             <input type="email" name="email" id="email" className="form-control mb-2" placeholder="Votre adresse email" required/>
-                            <input type="telephone" name="phone" id="phone" className="form-control mb-2" placeholder="Votre numéro de téléphone" required/>
+                            <input type="tel" name="phone" id="phone" className="form-control mb-2" placeholder="Votre numéro de téléphone" required/>
                             <input type="text" name="subject" id="subject" className="form-control mb-2" placeholder="Sujet" required/>
                             <textarea name="message" id="message" className="form-control mb-2" rows="15" placeholder="Votre message" required></textarea>
                             <button type="submit" className="btn btn-primary mx-auto">Envoyer</button>
