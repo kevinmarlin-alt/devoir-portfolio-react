@@ -18,7 +18,7 @@ const Contact = () => {
                             <input type="email" name="email" id="email" className="form-control mb-2" placeholder="Votre adresse email" required/>
                             <input type="telephone" name="phone" id="phone" className="form-control mb-2" placeholder="Votre numéro de téléphone" required/>
                             <input type="text" name="subject" id="subject" className="form-control mb-2" placeholder="Sujet" required/>
-                            <textarea name="message" id="message" className="form-control mb-2" rows="10" placeholder="Votre message" required></textarea>
+                            <textarea name="message" id="message" className="form-control mb-2" rows="20" placeholder="Votre message" required></textarea>
                             <button type="submit" className="btn btn-primary mx-auto">Envoyer</button>
                         </form>
                     </div>
@@ -63,7 +63,16 @@ const Contact = () => {
                                 john.doe@gmail.com
                             </p>
                         </address>
-                        <iframe src="https://www.google.com/maps/place/40+Rue+Laure+Diebold,+69009+Lyon/@45.778662,4.796404,17z/data=!3m1!4b1!4m6!3m5!1s0x47f4eb65edac5b3f:0xe01c47049cb2e2b9!8m2!3d45.778662!4d4.7989789!16s%2Fg%2F11c24790th?authuser=0&entry=ttu&g_ep=EgoyMDI2MDIwMS4wIKXMDSoKLDEwMDc5MjA2OUgBUAM%3D" frameborder="0"></iframe>
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5565.254304924359!2d4.796403977113233!3d45.7786619710808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb65edac5b3f%3A0xe01c47049cb2e2b9!2s40%20Rue%20Laure%20Diebold%2C%2069009%20Lyon!5e0!3m2!1sfr!2sfr!4v1770280756102!5m2!1sfr!2sfr" 
+                            width="600" 
+                            height="450" 
+                            title="Mon adresse"
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            className="w-100"
+                            >
+                        </iframe>                    
                     </div>
 
                     
