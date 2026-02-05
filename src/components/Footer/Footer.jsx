@@ -56,7 +56,7 @@ const Footer = () => {
                         </p>
                     </section>
                     <section className="col-md-4">
-                        <p className="fs-5 mb-2"><Link to="/portfolio">Mes dernières réalisations</Link></p>
+                        <p className="fs-5 mb-2">Mes dernières réalisations</p>
                         <p className="fs-6 mb-0"><Link to="/portfolio">Fresh Food</Link></p>
                         <p className="fs-6 mb-0"><Link to="/portfolio">Restaurant Akira</Link></p>
                         <p className="fs-6 mb-0"><Link to="/portfolio">Espace bien-être</Link></p>
