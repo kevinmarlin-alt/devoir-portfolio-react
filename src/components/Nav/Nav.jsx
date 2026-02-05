@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import "../css/Nav.css"
+import "./Nav.css"
 
 
 const Nav = () => {

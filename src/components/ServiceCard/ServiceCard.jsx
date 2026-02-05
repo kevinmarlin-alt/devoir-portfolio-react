@@ -1,6 +1,6 @@
 import React from "react"
 
-import "../css/ServiceCard.css"
+import "./ServiceCard.css"
 
 
 const ServiceCard = (props) => {

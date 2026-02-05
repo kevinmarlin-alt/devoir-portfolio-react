@@ -1,8 +1,8 @@
 import React from "react";
-import ServiceCard from "../assets/components/ServiceCard"
-import Title from "../assets/components/Title";
+import ServiceCard from "../../components/ServiceCard/ServiceCard"
+import Title from "../../components/Title/Title";
 
-import "../assets/css/Services.css"
+import "./Services.css"
 
 const Services = () => {
     return (

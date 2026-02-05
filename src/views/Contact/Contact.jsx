@@ -1,6 +1,6 @@
 import {React} from "react";
 
-import Title from "../assets/components/Title"
+import Title from "../../components/Title/Title"
 
 const Contact = () => {
     const inputs = document.querySelectorAll("input")

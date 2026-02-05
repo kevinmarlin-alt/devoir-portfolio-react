@@ -1,7 +1,7 @@
 import React from "react";
 
-import Title from "../assets/components/Title"
-import Address from "../assets/components/Address"
+import Title from "../../components/Title/Title"
+import Address from "../../components/Address/Address"
 
 const Legals = () => {
     return (
