@@ -1,7 +1,6 @@
 import React from "react";
-import "../assets/css/Home.css"
+import "./Home.css"
 
-import johndoe from "../assets/images/john-doe-about.jpg"
 
 const Home = () => {
     return (
@@ -15,7 +14,7 @@ const Home = () => {
                     <div className="row">
                         <div className="card-body col-md-6">
                             <h3 className="border-bottom border-primary border-3 mb-4">A propos</h3>
-                            <img src={johndoe} alt="John Doe" className="w-100 mb-2"/>
+                            <img src="../../../public/assets/images/john-doe-about.jpg" alt="John Doe" className="w-100 mb-2"/>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, necessitatibus consectetur tempore perferendis nostrum, ex delectus reiciendis impedit aut iure enim placeat? Natus, neque at?                            </p>
                             <p>
