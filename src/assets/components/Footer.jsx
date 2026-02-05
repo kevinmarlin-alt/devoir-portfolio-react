@@ -12,8 +12,10 @@ const Footer = () => {
                     <section className="col-md-4 mb-4">
                         <p className="fs-5 mb-2">John Doe</p>
                         <address>
-                            <p className="fs-6 mb-0">40 rue Laure Diebold</p>
-                            <p className="fs-6 mb-0">69009 Lyon, France</p>
+                            <a href="https://www.google.com/maps?ll=45.778662,4.798979&z=15&t=m&hl=fr&gl=FR&mapclient=embed&q=40+Rue+Laure+Diebold+69009+Lyon" rel="noreferrer" target="_blank">
+                                <p className="fs-6 mb-0">40 rue Laure Diebold</p>
+                                <p className="fs-6 mb-0">69009 Lyon, France</p>
+                            </a>
                             <p className="fs-6 mb-0"><a href="tel:+331020304050">10 20 30 40 50</a></p>
                             <p className="fs-6 mb-0"><a href="mailto:john.doe@gmail.com">john.doe@gmail.com</a></p>
                         </address>
