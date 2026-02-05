@@ -4,10 +4,6 @@ import Title from "../assets/components/Title";
 
 import "../assets/css/Services.css"
 
-
-import code_slash from "../assets/icons/code-slash.svg"
-import search from "../assets/icons/search.svg"
-
 const Services = () => {
     return (
         <main>
