@@ -18,7 +18,7 @@ const Contact = () => {
                             <input type="email" name="email" id="email" className="form-control mb-2" placeholder="Votre adresse email" required/>
                             <input type="telephone" name="phone" id="phone" className="form-control mb-2" placeholder="Votre numéro de téléphone" required/>
                             <input type="text" name="subject" id="subject" className="form-control mb-2" placeholder="Sujet" required/>
-                            <textarea name="message" id="message" className="form-control mb-2" rows="20" placeholder="Votre message" required></textarea>
+                            <textarea name="message" id="message" className="form-control mb-2" rows="15" placeholder="Votre message" required></textarea>
                             <button type="submit" className="btn btn-primary mx-auto">Envoyer</button>
                         </form>
                     </div>
@@ -27,7 +27,7 @@ const Contact = () => {
                         <h3 className="border-bottom border-primary border-3 mb-4">Mes coordonnées</h3>
                         <address>
                             <h4>John Doe</h4>
-                            <p>
+                            <p className="mb-0">
                                 <span className="me-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-map" viewBox="0 0 16 16">
                                         <path fill-rule="evenodd" d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.5.5 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103M10 1.91l-4-.8v12.98l4 .8zm1 12.98 4-.8V1.11l-4 .8zm-6-.8V1.11l-4 .8v12.98z"/>
@@ -35,7 +35,7 @@ const Contact = () => {
                                 </span>
                                 40 rue Laure Diebold
                             </p>
-                            <p>
+                            <p className="mb-0">
                                 <span className="me-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
                                         <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
@@ -44,7 +44,7 @@ const Contact = () => {
                                 </span>
                                 69009 Lyon, France
                             </p>
-                            <p>
+                            <p className="mb-0">
                                 <span className="me-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
                                       <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
@@ -53,7 +53,7 @@ const Contact = () => {
                                 </span>
                                 10 20 30 40 50
                             </p>
-                            <p>
+                            <p className="mb-0">
                                 <span className="me-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
                                       <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z"/>
