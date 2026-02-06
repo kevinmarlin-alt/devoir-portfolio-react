@@ -1,10 +1,12 @@
 import React from "react"
 
+import "./ServiceCard.css"
+
 const ServiceCard = (props) => {
 
     return (
-        <div id="service-card" className="col-md-4 d-flex flex-column text-center">
-            <div className="card h-100">
+        <div className="col-md-4 d-flex flex-column text-center">
+            <div id="service-card" className="card h-100">
                 <div className="card-body p-3">
                     <div className="my-4">
                         {props.svg}
