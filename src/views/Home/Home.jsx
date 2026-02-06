@@ -5,6 +5,8 @@ import "./Home.css"
 const Home = () => {
     return (
         <main>
+            <meta name="description" content="Bonjour a vous ! Je m'appel John Doe. Ce site internet vous permettra de mieux me connaitre et de vous présenter l'ensemble de mes domaines de compétences" />
+
             <header className="text-light text-center mb-5">
                 <h1 className="mb-4">Bonjour, je suis John Doe</h1>
                 <h2 className="mb-4">Développeur web full stack</h2>

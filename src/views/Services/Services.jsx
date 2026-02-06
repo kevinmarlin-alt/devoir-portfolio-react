@@ -7,6 +7,8 @@ import "./Services.css"
 const Services = () => {
     return (
         <main>
+            <meta name="description" content="Vous chercher un service de qualité ! Vous trouverez ici l'ensemble des services sur lesquel je suis en mesur de vous aider" />
+
             <Title 
                 title="Mon offre de services"
                 description="Voici les prestations sur lesquelles je peux intervenir"
