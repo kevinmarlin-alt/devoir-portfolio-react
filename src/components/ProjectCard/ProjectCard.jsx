@@ -7,7 +7,7 @@ const ProjectCard = (props) => {
     return (
         <div className="col">
             <div id="project-card" className="card text-center h-100 ">
-                <img src={props.img_url} alt={props.img_alt} className="card-img-top bg-primary" />
+                <img src={props.img_url} alt={props.img_alt} className="card-img-top" />
                 <div className="card-body py-4 flex-column">
                     <h5 className="card-title">{ props.title }</h5>
                     <p className="card-text">{ props.description }</p>

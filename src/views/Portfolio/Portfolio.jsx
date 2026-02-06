@@ -1,7 +1,15 @@
 import React from "react";
 
 import Title from "../../components/Title/Title"
-import ProjectCard from "../../components/ProjectCard/ProjectCard";
+import ProjectCard from "../../components/ProjectCard/ProjectCard"
+
+import freshFood_img from "../../assets/images/fresh-food.jpg"
+import akira_img from "../../assets/images/restaurant-japonais.jpg"
+import zen_img from "../../assets/images/espace-bien-etre.jpg"
+import seo_img from "../../assets/images/seo.jpg"
+import coder_img from "../../assets/images/coder.jpg"
+import screens_img from "../../assets/images/screens.jpg"
+
 
 
 const Portfolio = () => {
@@ -15,9 +23,9 @@ const Portfolio = () => {
                 description="Voici quelques-unes de mes réalisations."
             />
              <div className="container mb-5">
-                <div className="row row-cols-md-3 g-4">
+                <div className="row row-cols-1 row-cols-md-3 g-4">
                     <ProjectCard
-                        img_url="../../../public/assets/images/fresh-food.jpg"
+                        img_url={freshFood_img}
                         img_alt="Plateau de fruits et légumes"
                         title="Fresh Food"
                         description="Site de vente de produits frais en ligne"
@@ -26,7 +34,7 @@ const Portfolio = () => {
                         footer="Site réalisé avec PHP et MySQL"
                     />                    
                     <ProjectCard
-                        img_url="../../../public/assets/images/restaurant-japonais.jpg"
+                        img_url={akira_img}
                         img_alt="Assortiment de sushi et maki japonais"
                         title="Restaurant Akira"
                         description="Site de vente de produits frais en ligne"
@@ -35,7 +43,7 @@ const Portfolio = () => {
                         footer="Site réalisé avec WordPress"
                     />
                     <ProjectCard
-                        img_url="../../../public/assets/images/espace-bien-etre.jpg"
+                        img_url={zen_img}
                         img_alt="Tête de Boudda avec une fleur de lotus et des pierres empilées sur de l'eau avec un couché de soleil"
                         title="Espace bien-être"
                         description="Site de vente de produits frais en ligne"
@@ -44,7 +52,7 @@ const Portfolio = () => {
                         footer="Site réalisé avec LARAVEL"
                     />
                     <ProjectCard
-                        img_url="../../../public/assets/images/seo.jpg"
+                        img_url={seo_img}
                         img_alt="Accumulation de mots en référence au SEO"
                         title="SEO"
                         description="Améliration du référencement d'un site e-commerce"
@@ -53,7 +61,7 @@ const Portfolio = () => {
                         footer="Utilisation des outils SEO"
                     />
                     <ProjectCard
-                        img_url="../../../public/assets/images/coder.jpg"
+                        img_url={coder_img}
                         img_alt="Extrait de code informatique"
                         title="Création d'une API"
                         description="Création d'une API RESTFULL publique"
@@ -62,7 +70,7 @@ const Portfolio = () => {
                         footer="PHP - SYMFONY"
                     />
                     <ProjectCard
-                        img_url="../../../public/assets/images/screens.jpg"
+                        img_url={screens_img}
                         img_alt="Bureau bien rangé avec un ordinateur bureau, un ordinateur portable et une tablette"
                         title="Maquette d'un site web"
                         description="Création du prototype d'un site"
