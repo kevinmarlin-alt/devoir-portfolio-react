@@ -8,6 +8,8 @@ const Portfolio = () => {
     
     return (
         <main>
+            <meta name="description" content="Vous trouverez dans cette section l'ensemble de mes réalisations qui pourons vous permettre de voir le champs de mes compétences en application" />
+
             <Title 
                 title="Portfolio"
                 description="Voici quelques-unes de mes réalisations."

@@ -46,7 +46,9 @@ const Contact = () => {
 
 
     return (
+        
         <main>
+            <meta name="description" content="Laissez-moi un message et rencontrons-nous ! Vous trouverez un formulaire de contact et également mes coordonnées." />
             <Title
                 title="Contact"
                 description="Pour me contacter en vue d'un entretien ou d'une future collaboration, merci de remplir le formulaire de contact."
