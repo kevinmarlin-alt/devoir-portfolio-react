@@ -13,19 +13,32 @@ import Legals from "./views/Legals/Legals"
 import Modale from "./views/Modale/Modale"
 
 import "./App.css"
-
+// https://api.github.com/users/github-john-doe
 export default function App() {
 
-  const [userData, setData] = useState(null)
+  const [user, setUser] = useState([])
+  
+   useEffect(() => {
+    const fetchUsers = async () => {
+      try {
+        const response = await fetch("https://api.github.com/users/github-john-doe")
 
-  useEffect(() => {
-      fetch("https://api.github.com/users/github-john-doe")
-        .then(response => response.json())
-        .then(setData)
-        .catch(console.error)
+        if (!response.ok) {
+          throw new Error(`Erreur HTTP : ${response.status}`)
+        }
 
-      console.log(userData)
-  }, []);
+        const data = await response.json();
+        setUser(data)
+
+      } catch (err) {
+        console.error(err.message);
+
+      }
+    };
+
+    fetchUsers()
+  }, [])
+
 
   return (
     <div>
@@ -38,7 +51,7 @@ export default function App() {
         <Route path="/mentions-legals" element={<Legals />} />
       </Routes>
       <Footer />
-      <Modale userData={userData} />
+      <Modale userData={user} />
     </div>
   )
 }

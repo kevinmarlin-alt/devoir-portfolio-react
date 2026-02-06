@@ -22,11 +22,11 @@ const Home = () => {
                                     <h3 className="border-bottom border-primary border-3 mb-4">A propos</h3>
                                     <img src={johnDoeAbout} alt="John Doe" className="w-100 mb-2"/>
                                     <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, necessitatibus consectetur tempore perferendis nostrum, ex delectus reiciendis impedit aut iure enim placeat? Natus, neque at?                            </p>
+                                        Lorem <strong>ipsum</strong> dolor sit amet consectetur adipisicing elit. Optio, necessitatibus consectetur tempore perferendis nostrum, ex delectus reiciendis impedit aut iure enim placeat? Natus, neque at?                            </p>
                                     <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, necessitatibus consectetur tempore perferendis nostrum, ex delectus reiciendis impedit aut iure enim placeat? Natus, neque at?                            </p>
+                                        Lorem <strong>ipsum</strong> dolor sit amet consectetur adipisicing elit. Optio, necessitatibus consectetur tempore perferendis nostrum, ex delectus reiciendis impedit aut iure enim placeat? Natus, neque at?                            </p>
                                     <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, necessitatibus consectetur tempore perferendis nostrum, ex delectus reiciendis impedit aut iure enim placeat? Natus, neque at?                            </p>
+                                        Lorem <strong>ipsum</strong> dolor sit amet consectetur adipisicing elit. Optio, necessitatibus consectetur tempore perferendis nostrum, ex delectus reiciendis impedit aut iure enim placeat? Natus, neque at?                            </p>
 
                                 </div>
 

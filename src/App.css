@@ -6,7 +6,7 @@ body {
     font-weight: 400;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, strong {
     font-weight: 600;
 }
 
@@ -17,3 +17,4 @@ a {
 .btn:hover {
     filter: brightness(90%);
 }
+
