@@ -7,7 +7,7 @@ const Legals = () => {
     return (
         <main>
             <meta name="description" content="Vous trouverez dans cette section l'ensemble des mentions légales relative à la création de mon site internet." />
-
+            <meta name="robots" content="noindex" />
             <Title
                 title="Mentions légales"
             />
