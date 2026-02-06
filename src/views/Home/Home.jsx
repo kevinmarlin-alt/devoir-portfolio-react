@@ -18,7 +18,7 @@ const Home = () => {
                     <div className="card border border-0 shadow">
                         <div className="container">
                             <div className="row">
-                                <div className="card-body col-lg-6 py-4">
+                                <div className="card-body col-md-6 py-4">
                                     <h3 className="border-bottom border-primary border-3 mb-4">A propos</h3>
                                     <img src={johnDoeAbout} alt="John Doe" className="w-100 mb-2"/>
                                     <p>
@@ -30,7 +30,7 @@ const Home = () => {
 
                                 </div>
 
-                                <div className="card-body col-lg-6 py-4">
+                                <div className="card-body col-md-6 py-4">
                                     <h3 className="border-bottom border-primary border-3 mb-4">Mes compétences</h3>
                                     <ul>
                                         <li className="mb-4">
