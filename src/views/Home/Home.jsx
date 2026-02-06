@@ -7,11 +7,11 @@ const Home = () => {
     return (
         <main>
             <meta name="description" content="Bonjour a vous ! Je m'appel John Doe. Ce site internet vous permettra de mieux me connaitre et de vous présenter l'ensemble de mes domaines de compétences" />
-
+     
             <header className="text-light text-center mb-5">
                 <h1 className="mb-4">Bonjour, je suis John Doe</h1>
                 <h2 className="mb-4">Développeur web full stack</h2>
-                <button type="button" class="btn btn-danger btn-sm px-3">En savoir plus</button>
+                <button type="button" class="btn btn-danger btn-sm px-3" data-bs-toggle="modal" data-bs-target="#exampleModal">En savoir plus</button>
             </header>
             <div className="container">
                 <div className="row mx-2 mb-5">
@@ -71,6 +71,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            
         </main>
     )
 }
