@@ -13,7 +13,7 @@ import Legals from "./views/Legals/Legals"
 import Modale from "./views/Modale/Modale"
 
 import "./App.css"
-// https://api.github.com/users/github-john-doe
+
 export default function App() {
 
   const [user, setUser] = useState([])
@@ -27,14 +27,14 @@ export default function App() {
           throw new Error(`Erreur HTTP : ${response.status}`)
         }
 
-        const data = await response.json();
+        const data = await response.json()
         setUser(data)
 
       } catch (err) {
-        console.error(err.message);
+        console.error(err.message)
 
       }
-    };
+    }
 
     fetchUsers()
   }, [])
