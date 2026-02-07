@@ -3,30 +3,23 @@ import {React} from "react";
 import Title from "../../components/Title/Title"
 import Address from "../../components/Address/Address"
 
-const Contact = () => {
-    const inputs = document.querySelectorAll("input")
-    const textArea = document.querySelector("textarea")
-    
-    function handleSubmit(event) {
+function handleSubmit(event) {
         event.preventDefault()
         event.stopPropagation()
-
+        
         checkValidation()
 
+        const form = document.querySelector("form")
+        if(!form.checkValidity()) {
+            return
+        }
+        
+        form.reset()
         showSubmitInfo()
         clearValidation()
 
-        const form = document.querySelector("form")
-        form.reset()
-
-        // inputs.forEach(input => input.classList.remove("is-valid", "is-invalid"))
-        // textArea.classList.remove("is-valid", "is-invalid")
-    }
-
-    function clearValidation(){
-
-    }
-
+    }    
+    
     function showSubmitInfo(){
         const submitInfo = document.querySelector("form p")
         submitInfo.classList.remove("d-none")
@@ -36,18 +29,31 @@ const Contact = () => {
     }
 
     function checkValidation() {
-        
+        const textArea = document.querySelector("textarea")
+        const inputs = document.querySelectorAll("input")
+
         inputs.forEach(input => {
             input.classList.remove("is-valid", "is-invalid")
             console.log(input.checkValidity())
             input.checkValidity() ? input.classList.add("is-valid") : input.classList.add("is-invalid") 
         })
         
+        
         textArea.classList.remove("is-valid", "is-invalid")
         textArea.checkValidity() ? textArea.classList.add("is-valid") : textArea.classList.add("is-invalid")
     }
 
+    function clearValidation(){
+        const inputs = document.querySelectorAll("input")
+        const textArea = document.querySelector("textarea")
 
+        inputs.forEach(input => input.classList.remove("is-valid", "is-invalid"))
+        textArea.classList.remove("is-valid", "is-invalid")
+
+    }
+
+const Contact = () => {
+    
     return (
         
         <main>
