@@ -10,6 +10,7 @@ const Services = () => {
             <meta name="description" content="Vous chercher un service de qualité ! Vous trouverez ici l'ensemble des services sur lesquel je suis en mesur de vous aider" />
 
             <Title 
+                display={true}
                 title="Mon offre de services"
                 description="Voici les prestations sur lesquelles je peux intervenir"
             />

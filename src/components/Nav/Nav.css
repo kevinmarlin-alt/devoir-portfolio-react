@@ -1,5 +1,5 @@
 header a {
-    color: white;
+    color: rgb(200, 200, 200);
 }
 
 header a:hover {
@@ -13,8 +13,9 @@ header li {
 h1 a:hover {
     text-decoration: none;
 }
+
 .active {
     font-weight: 600;
     text-decoration: underline;
-    color: rgb(179, 179, 179);
+    color: rgb(255, 255, 255);
 }

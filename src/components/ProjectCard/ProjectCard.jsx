@@ -9,9 +9,9 @@ const ProjectCard = (props) => {
             <div id="project-card" className="card text-center h-100 ">
                 <img src={props.img_url} alt={props.img_alt} className="card-img-top" />
                 <div className="card-body py-4 flex-column">
-                    <h5 className="card-title">{ props.title }</h5>
+                    <h3 className="card-title">{ props.title }</h3>
                     <p className="card-text">{ props.description }</p>
-                    <Link to={props.url} className="btn btn-primary">{props.btn_text}</Link>
+                    <Link to={props.url} className="btn btn-primary">Voir le site</Link>
                 </div>
                     <div className="card-footer">
                         <p className="mb-0">{ props.footer }</p>

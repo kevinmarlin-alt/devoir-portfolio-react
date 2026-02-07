@@ -11,7 +11,7 @@ const ServiceCard = (props) => {
                     <div className="my-4">
                         {props.svg}
                     </div>
-                    <h4 className="card-title">{ props.title }</h4>
+                    <h3 className="card-title">{ props.title }</h3>
                     <p className="card-text">{ props.description }</p>
                 </div>
             </div>
