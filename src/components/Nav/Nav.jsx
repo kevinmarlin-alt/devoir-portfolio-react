@@ -15,7 +15,7 @@ const Nav = () => {
             <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
                 <div className="container-fluid mx-5">
 
-                    <p className="navbar-brand mb-0"><Link to="/">JOHN DOE</Link></p>
+                    <p className="navbar-brand mb-0"><Link className="text-light" to="/">JOHN DOE</Link></p>
 
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
